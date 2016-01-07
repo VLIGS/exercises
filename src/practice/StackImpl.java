@@ -3,17 +3,17 @@ package practice;
 import java.util.ArrayList;
 import java.util.List;
 
-public class StackImpl implements Stack{
-    private final List list = new ArrayList();
+public class StackImpl <E>implements Stack <E>{
+    private final List <E> list = new ArrayList<E>();
     @Override
-    public void push(int item){
+    public void push(E item){
         list.add(0,item);
 
     }
     @Override
-    public int pop(){
+    public E pop(){
         if(list.isEmpty())
             throw new IndexOutOfBoundsException("Stack is empty - can't pop");
-        return (Integer)list.remove(0);
+        return list.remove(0);
     }
 }

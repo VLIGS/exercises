@@ -1,6 +1,6 @@
 package practice;
 
-public interface Stack{
-    void push(int item);
-    int pop();
+public interface Stack <E>{
+    void push(E item);
+    E pop();
 }
