@@ -5,7 +5,7 @@ class  ConcreteProduct implements Product{
     private String productName;
 
     public ConcreteProduct(){
-        productName = "generic";
+        setProductName("generic");
     }
     public ConcreteProduct(String name){
         productName = name;
@@ -14,5 +14,11 @@ class  ConcreteProduct implements Product{
     @Override
     public String getProductName (){
         return productName;
+    }
+
+
+    @Override
+    public void setProductName(String name){
+        productName = name;
     }
 }

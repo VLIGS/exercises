@@ -1,5 +1,6 @@
 package factory;
 
+import java.io.FileInputStream;
 import java.util.Properties;
 
 public class ConcreteCreator implements Creator{
@@ -10,11 +11,32 @@ public class ConcreteCreator implements Creator{
 
     private ConcreteCreator(){
         props = new Properties();
-        
+        try {
+            props.load(new FileInputStream("/Users/lulu/IdeaProjects/exercises/DesignPatterns/src/factory/bean.properties"));
+
+            // get the implementation classes
+            String productClass = props.getProperty("product.class");
+            // get product type
+            String productType = props.getProperty("product.type");
+            myProduct = (Product) Class.forName(productClass).newInstance();
+            myProduct.setProductName(productType);
+
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }
+    }
+
+    static {
+        instance = new ConcreteCreator(); //static constructor block, when class is used, this will run,
+        //this is use of singlton design pattern
+    }
+
+    public static ConcreteCreator getInstance() {
+        return instance;
     }
 
     @Override
-    public Product factoryMethod(){
-        return null;
+    public Product returnProduct(){
+        return myProduct;
     }
 }

@@ -2,8 +2,8 @@ package factory;
 
 public interface Creator {
 
-    Product factoryMethod();
-    /**default Product factoryMethod(){
+    Product returnProduct();
+    /**default Product returnProduct(){
         return new ConcreteProduct();
     }
      **/
