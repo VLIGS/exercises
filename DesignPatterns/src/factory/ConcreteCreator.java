@@ -3,7 +3,7 @@ package factory;
 import java.io.FileInputStream;
 import java.util.Properties;
 
-public class ConcreteCreator implements Creator{
+public class ConcreteCreator extends Creator{
 
     private static ConcreteCreator instance = null;  //static constructor block
     private Product myProduct;
@@ -14,7 +14,7 @@ public class ConcreteCreator implements Creator{
         try {
             props.load(new FileInputStream("/Users/lulu/IdeaProjects/exercises/DesignPatterns/src/factory/bean.properties"));
 
-            // get the implementation classes
+            // get the implementation class
             String productClass = props.getProperty("product.class");
             // get product type
             String productType = props.getProperty("product.type");

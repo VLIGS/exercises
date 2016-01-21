@@ -3,7 +3,7 @@ import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-public class FactoryPatternTests {
+public class FactoryTests {
     private Product myProduct;
     private Creator myCreator = ConcreteCreator.getInstance();
     @Before

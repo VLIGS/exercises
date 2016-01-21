@@ -1,10 +1,8 @@
 package factory;
 
-public interface Creator {
+public class Creator {
 
-    Product returnProduct();
-    /**default Product returnProduct(){
-        return new ConcreteProduct();
+    Product returnProduct(){
+        return null;
     }
-     **/
 }
