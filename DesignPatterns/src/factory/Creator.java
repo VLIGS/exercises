@@ -1,8 +1,5 @@
 package factory;
 
-public class Creator {
-
-    Product returnProduct(){
-        return null;
-    }
+public abstract class Creator {
+    public abstract Product returnProduct();
 }
