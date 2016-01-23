@@ -5,14 +5,14 @@ import java.lang.reflect.Constructor;
 public class ReflectionSingletonTest {
 
     public static void main(String[] args) {
-        EagerSingleton instanceOne = EagerSingleton.getInstance();
-        EagerSingleton instanceTwo = null;
+        SingletonProtected instanceOne = SingletonProtected.getInstance();
+        SingletonProtected instanceTwo = null;
         try {
-            Constructor[] constructors = EagerSingleton.class.getDeclaredConstructors();
+            Constructor[] constructors = SingletonProtected.class.getDeclaredConstructors();
             for (Constructor constructor : constructors) {
                 //Below code will destroy the singleton pattern
                 constructor.setAccessible(true);
-                instanceTwo = (EagerSingleton) constructor.newInstance();
+                instanceTwo = (SingletonProtected) constructor.newInstance();
                 break;
             }
         } catch (Exception e) {
