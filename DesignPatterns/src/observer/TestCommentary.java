@@ -14,7 +14,8 @@ public class TestCommentary {
 
         //this is updating commentry feature, which is part of/connected to specific subject
         //it should trigger update of subject's state
-        Commentary cObject = ((Commentary) subject);
+        //Commentary cObject = ((Commentary) subject);
+        Commentary cObject = new LiveFeed(subject);
         cObject.setDesc("Welcome to live Soccer match");
         cObject.setDesc("Current score 0-0");
         System.out.println();

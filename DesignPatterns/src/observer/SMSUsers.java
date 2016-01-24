@@ -8,9 +8,10 @@ public class SMSUsers implements Observer {
         myMsg = msg;
     }
 
+    //update with most recent message
     @Override
     public void update(String desc) {
-
+        System.out.println(myMsg + " received " + desc);
     }
     //this is to subscribe to the SMS service
     @Override

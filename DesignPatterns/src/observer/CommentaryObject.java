@@ -4,8 +4,8 @@ import java.util.List;
 
 public class CommentaryObject implements Subject {
     private List<Observer> mySubscribers;
+    private String myState;
     private String myTitle;
-    private Commentary myCommentary;
 
     public CommentaryObject(List<Observer> subscribers, String title) {
         mySubscribers = subscribers;
@@ -25,12 +25,12 @@ public class CommentaryObject implements Subject {
     @Override
     public void notifyObservers() {
         for (Observer myObserver: mySubscribers){
-            myObserver.update(subjectDetails());
+            myObserver.update(myState);
         }
     }
 
     @Override
     public String subjectDetails() {
-        return null;
+        return myTitle;
     }
 }
