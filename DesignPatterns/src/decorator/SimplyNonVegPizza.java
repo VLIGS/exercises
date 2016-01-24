@@ -1,13 +1,20 @@
 package decorator;
 
 public class SimplyNonVegPizza implements Pizza {
+    private String description;
+    private double cost;
+
+    public SimplyNonVegPizza(){
+        description = "SimplyNonVegPizza";
+        cost = 350.0;
+    }
     @Override
     public String getDesc() {
-        return null;
+        return description + "(" + cost + ")";
     }
 
     @Override
     public double getPrice() {
-        return 350.0;
+        return cost;
     }
 }

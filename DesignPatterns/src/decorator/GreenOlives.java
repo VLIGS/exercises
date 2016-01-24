@@ -1,18 +1,21 @@
 package decorator;
 
 public class GreenOlives implements Pizza {
-    private String description;
-
-    public GreenOlives(Pizza pizza) {
+    Pizza myPizza;
+    private String myTopping;
+    double addOn = 5.47;
+    public GreenOlives(Pizza pizza){
+        myPizza = pizza;
+        myTopping = "GreenOlives";
     }
 
     @Override
     public String getDesc() {
-        return null;
+        return myPizza.getDesc() + " " + myTopping + " (" + addOn + ")";
     }
 
     @Override
     public double getPrice() {
-        return 0;
+        return myPizza.getPrice() + addOn;
     }
 }

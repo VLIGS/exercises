@@ -19,7 +19,7 @@ public class TestDecoratorPattern {
         pizza = new GreenOlives(pizza);
         print(pizza);
 
-        //pizza = new Spinach(pizza);
+        pizza = new Spinach(pizza);
         print(pizza);
 
         pizza = new SimplyNonVegPizza();
@@ -28,7 +28,7 @@ public class TestDecoratorPattern {
         pizza = new Meat(pizza);
         print(pizza);
 
-        //pizza = new Cheese(pizza);
+        pizza = new Cheese(pizza);
         print(pizza);
 
         pizza = new Ham(pizza);

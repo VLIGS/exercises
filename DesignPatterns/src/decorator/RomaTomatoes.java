@@ -1,16 +1,21 @@
 package decorator;
 
 public class RomaTomatoes implements Pizza {
-    public RomaTomatoes(Pizza pizza) {
+    Pizza myPizza;
+    private String myTopping;
+    double addOn = 5.20;
+    public RomaTomatoes(Pizza pizza){
+        myPizza = pizza;
+        myTopping = "RomaTomatoes";
     }
 
     @Override
     public String getDesc() {
-        return null;
+        return myPizza.getDesc() + " " + myTopping + " (" + addOn + ")";
     }
 
     @Override
     public double getPrice() {
-        return 0;
+        return myPizza.getPrice() + addOn;
     }
 }
