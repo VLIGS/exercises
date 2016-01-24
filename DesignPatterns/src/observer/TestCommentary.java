@@ -4,8 +4,7 @@ import java.util.ArrayList;
 
 public class TestCommentary {
     public static void main(String[] args) {
-        Subject subject = new CommentaryObject(new ArrayList<Observer>(),
-                "Soccer - Match[2014AUG24]");
+        Subject subject = new CommentaryObject(new ArrayList<Observer>(), "Soccer - Match[2014AUG24]");
         Observer observer = new SMSUsers(subject, "Adam Warner [New York]");
         observer.subscribe();
         System.out.println();
@@ -13,6 +12,8 @@ public class TestCommentary {
         Observer observer2 = new SMSUsers(subject, "Wayne Rooney [Manchester]");
         observer2.subscribe();
 
+        //this is updating commentry feature, which is part of/connected to specific subject
+        //it should trigger update of subject's state
         Commentary cObject = ((Commentary) subject);
         cObject.setDesc("Welcome to live Soccer match");
         cObject.setDesc("Current score 0-0");
