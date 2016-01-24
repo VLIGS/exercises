@@ -1,6 +1,10 @@
 package decorator;
 
-public class SimplyNonVegPizza implements Pizza {
+public class Ham extends PizzaDecorator{
+    Pizza myPizza;
+    public Ham(Pizza pizza){
+        myPizza = pizza;
+    }
     @Override
     public String getDesc() {
         return null;
@@ -8,6 +12,6 @@ public class SimplyNonVegPizza implements Pizza {
 
     @Override
     public double getPrice() {
-        return 350.0;
+        return 0;
     }
 }

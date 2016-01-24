@@ -1,11 +1,10 @@
 package decorator;
 
-public class GreenOlives implements Pizza {
-    private String description;
-
-    public GreenOlives(Pizza pizza) {
+public class Spinach extends PizzaDecorator{
+    Pizza myPizza;
+    public Spinach(Pizza pizza){
+        myPizza = pizza;
     }
-
     @Override
     public String getDesc() {
         return null;

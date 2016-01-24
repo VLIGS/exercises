@@ -1,21 +1,25 @@
 package decorator;
 
+import java.text.DecimalFormat;
+
 public class TestDecoratorPattern {
-    /**private static DecimalFormat dformat;
+    private static DecimalFormat dformat;
 
     static {
         dformat = new DecimalFormat("#.##");
     }
 
     public static void main(String[] args) {
+
         Pizza pizza = new SimplyVegPizza();
+
         pizza = new RomaTomatoes(pizza);
         print(pizza);
 
         pizza = new GreenOlives(pizza);
         print(pizza);
 
-        pizza = new Spinach(pizza);
+        //pizza = new Spinach(pizza);
         print(pizza);
 
         pizza = new SimplyNonVegPizza();
@@ -24,7 +28,7 @@ public class TestDecoratorPattern {
         pizza = new Meat(pizza);
         print(pizza);
 
-        pizza = new Cheese(pizza);
+        //pizza = new Cheese(pizza);
         print(pizza);
 
         pizza = new Ham(pizza);
@@ -35,5 +39,4 @@ public class TestDecoratorPattern {
         System.out.println("Desc: " + pizza.getDesc());
         System.out.println("Price: " + dformat.format(pizza.getPrice()));
     }
-     **/
 }
