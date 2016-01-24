@@ -7,5 +7,7 @@ public interface Subject {
 
     void notifyObservers();
 
+    void setState(String state);
+
     String subjectDetails();
 }

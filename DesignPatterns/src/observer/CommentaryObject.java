@@ -19,7 +19,10 @@ public class CommentaryObject implements Subject {
 
     @Override
     public void unSubscribeObserver(Observer observer) {
-        mySubscribers.remove(observer);
+        int i = mySubscribers.indexOf(observer);
+        if(i>=0) {
+            mySubscribers.remove(observer);
+        }
     }
 
     @Override
@@ -27,6 +30,11 @@ public class CommentaryObject implements Subject {
         for (Observer myObserver: mySubscribers){
             myObserver.update(myState);
         }
+    }
+
+    @Override
+    public void setState(String state){
+        myState = state;
     }
 
     @Override

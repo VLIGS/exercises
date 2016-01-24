@@ -8,7 +8,7 @@ public class LiveFeed implements Commentary{
         mySubject=subject;
     }
     public void setDesc(String desc){
-        feed = desc;
+        mySubject.setState(desc);
         mySubject.notifyObservers();
     }
 }
