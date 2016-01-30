@@ -2,86 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b216e49-5e55-4e27-91d3-07b6f66e0b27" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week03/out/production/DesignPatterns/decorator/GreenOlives.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week03/out/production/DesignPatterns/decorator/RomaTomatoes.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week03/out/production/DesignPatterns/decorator/SimplyNonVegPizza.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week03/out/production/DesignPatterns/decorator/SimplyVegPizza.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week03/out/production/DesignPatterns/decorator/TestDecoratorPattern.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week03/out/production/DesignPatterns/observer/CommentaryObject.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week03/out/production/DesignPatterns/observer/SMSUsers.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week03/out/production/DesignPatterns/observer/Subject.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week03/out/production/DesignPatterns/observer/TestCommentary.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week03/src/factory/Creator.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DesignPatterns/out/production/DesignPatterns/decorator/GreenOlives.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DesignPatterns/out/production/DesignPatterns/decorator/RomaTomatoes.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DesignPatterns/out/production/DesignPatterns/decorator/SimplyNonVegPizza.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DesignPatterns/out/production/DesignPatterns/decorator/SimplyVegPizza.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DesignPatterns/out/production/DesignPatterns/decorator/TestDecoratorPattern.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DesignPatterns/out/production/DesignPatterns/observer/CommentaryObject.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DesignPatterns/out/production/DesignPatterns/observer/SMSUsers.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DesignPatterns/out/production/DesignPatterns/observer/Subject.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DesignPatterns/out/production/DesignPatterns/observer/TestCommentary.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DesignPatterns/src/factory/Creator.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/DesignPatterns.iml" afterPath="$PROJECT_DIR$/Week03/Week03.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/out/production/DesignPatterns/decorator/Pizza.class" afterPath="$PROJECT_DIR$/Week03/out/production/DesignPatterns/decorator/Pizza.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/out/production/DesignPatterns/factory/ConcreteCreator.class" afterPath="$PROJECT_DIR$/Week03/out/production/DesignPatterns/factory/ConcreteCreator.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/out/production/DesignPatterns/factory/ConcreteProduct.class" afterPath="$PROJECT_DIR$/Week03/out/production/DesignPatterns/factory/ConcreteProduct.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/out/production/DesignPatterns/factory/Creator.class" afterPath="$PROJECT_DIR$/Week03/out/production/DesignPatterns/factory/Creator.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/out/production/DesignPatterns/factory/FactoryTests.class" afterPath="$PROJECT_DIR$/Week03/out/production/DesignPatterns/factory/FactoryTests.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/out/production/DesignPatterns/factory/Product.class" afterPath="$PROJECT_DIR$/Week03/out/production/DesignPatterns/factory/Product.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/out/production/DesignPatterns/factory/bean.properties" afterPath="$PROJECT_DIR$/Week03/out/production/DesignPatterns/factory/bean.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/out/production/DesignPatterns/observer/Commentary.class" afterPath="$PROJECT_DIR$/Week03/out/production/DesignPatterns/observer/Commentary.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/out/production/DesignPatterns/observer/Observer.class" afterPath="$PROJECT_DIR$/Week03/out/production/DesignPatterns/observer/Observer.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/out/production/DesignPatterns/singleton/SingletonProtected.class" afterPath="$PROJECT_DIR$/Week03/out/production/DesignPatterns/singleton/SingletonProtected.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/out/production/DesignPatterns/stub/WindowAdapter.class" afterPath="$PROJECT_DIR$/Week03/out/production/DesignPatterns/stub/WindowAdapter.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/out/production/DesignPatterns/stub/WindowListener.class" afterPath="$PROJECT_DIR$/Week03/out/production/DesignPatterns/stub/WindowListener.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/out/production/DesignPatterns/xpay/PayD.class" afterPath="$PROJECT_DIR$/Week03/out/production/DesignPatterns/xpay/PayD.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/out/production/DesignPatterns/xpay/Xpay.class" afterPath="$PROJECT_DIR$/Week03/out/production/DesignPatterns/xpay/Xpay.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/DESIGN PATTERNS WORKSHEET.pdf" afterPath="$PROJECT_DIR$/Week03/src/DESIGN PATTERNS WORKSHEET.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/decorator/Cheese.java" afterPath="$PROJECT_DIR$/Week03/src/decorator/Cheese.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/decorator/GreenOlives.java" afterPath="$PROJECT_DIR$/Week03/src/decorator/GreenOlives.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/decorator/Ham.java" afterPath="$PROJECT_DIR$/Week03/src/decorator/Ham.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/decorator/Meat.java" afterPath="$PROJECT_DIR$/Week03/src/decorator/Meat.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/decorator/Pizza.java" afterPath="$PROJECT_DIR$/Week03/src/decorator/Pizza.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/decorator/PizzaDecorator.java" afterPath="$PROJECT_DIR$/Week03/src/decorator/PizzaDecorator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/decorator/RomaTomatoes.java" afterPath="$PROJECT_DIR$/Week03/src/decorator/RomaTomatoes.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/decorator/SimplyNonVegPizza.java" afterPath="$PROJECT_DIR$/Week03/src/decorator/SimplyNonVegPizza.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/decorator/SimplyVegPizza.java" afterPath="$PROJECT_DIR$/Week03/src/decorator/SimplyVegPizza.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/decorator/Spinach.java" afterPath="$PROJECT_DIR$/Week03/src/decorator/Spinach.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/decorator/TestDecoratorPattern.java" afterPath="$PROJECT_DIR$/Week03/src/decorator/TestDecoratorPattern.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/factory/ConcreteCreator.java" afterPath="$PROJECT_DIR$/Week03/src/factory/ConcreteCreator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/factory/ConcreteProduct.java" afterPath="$PROJECT_DIR$/Week03/src/factory/ConcreteProduct.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/factory/FactoryTests.java" afterPath="$PROJECT_DIR$/Week03/src/factory/FactoryTests.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/factory/Product.java" afterPath="$PROJECT_DIR$/Week03/src/factory/Product.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/factory/bean.properties" afterPath="$PROJECT_DIR$/Week03/src/factory/bean.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/observer/Commentary.java" afterPath="$PROJECT_DIR$/Week03/src/observer/Commentary.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/observer/CommentaryObject.java" afterPath="$PROJECT_DIR$/Week03/src/observer/CommentaryObject.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/observer/LiveFeed.java" afterPath="$PROJECT_DIR$/Week03/src/observer/LiveFeed.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/observer/Observer.java" afterPath="$PROJECT_DIR$/Week03/src/observer/Observer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/observer/SMSUsers.java" afterPath="$PROJECT_DIR$/Week03/src/observer/SMSUsers.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/observer/Subject.java" afterPath="$PROJECT_DIR$/Week03/src/observer/Subject.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/observer/TestCommentary.java" afterPath="$PROJECT_DIR$/Week03/src/observer/TestCommentary.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/singleton/EagerSingleton.java" afterPath="$PROJECT_DIR$/Week03/src/singleton/EagerSingleton.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/singleton/LazySingleton.java" afterPath="$PROJECT_DIR$/Week03/src/singleton/LazySingleton.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/singleton/ReflectionSingletonTest.java" afterPath="$PROJECT_DIR$/Week03/src/singleton/ReflectionSingletonTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/singleton/SingletonDoubleLocking.java" afterPath="$PROJECT_DIR$/Week03/src/singleton/SingletonDoubleLocking.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/singleton/SingletonProtected.java" afterPath="$PROJECT_DIR$/Week03/src/singleton/SingletonProtected.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/singleton/SingletonTest.java" afterPath="$PROJECT_DIR$/Week03/src/singleton/SingletonTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/singleton/ThreadSafeSingleton.java" afterPath="$PROJECT_DIR$/Week03/src/singleton/ThreadSafeSingleton.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/stub/WindowAdapter.java" afterPath="$PROJECT_DIR$/Week03/src/stub/WindowAdapter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/stub/WindowListener.java" afterPath="$PROJECT_DIR$/Week03/src/stub/WindowListener.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/xpay/AdapterTests.java" afterPath="$PROJECT_DIR$/Week03/src/xpay/AdapterTests.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/xpay/PayD.java" afterPath="$PROJECT_DIR$/Week03/src/xpay/PayD.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/xpay/Xpay.java" afterPath="$PROJECT_DIR$/Week03/src/xpay/Xpay.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/xpay/XpayImpl.java" afterPath="$PROJECT_DIR$/Week03/src/xpay/XpayImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/xpay/XpayToPayDAdapter.java" afterPath="$PROJECT_DIR$/Week03/src/xpay/XpayToPayDAdapter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Week1/Week1.iml" afterPath="$PROJECT_DIR$/Week01/Week01.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Week1/src/Lab1/BankAccount.java" afterPath="$PROJECT_DIR$/Week01/src/Lab1/BankAccount.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Week1/src/Lab1/Driver.java" afterPath="$PROJECT_DIR$/Week01/src/Lab1/Driver.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Week1/src/Lab1/Storage.java" afterPath="$PROJECT_DIR$/Week01/src/Lab1/Storage.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Week1/src/practice/Stack.java" afterPath="$PROJECT_DIR$/Week01/src/practice/Stack.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Week1/src/practice/StackImpl.java" afterPath="$PROJECT_DIR$/Week01/src/practice/StackImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Week1/src/practice/StackTest.java" afterPath="$PROJECT_DIR$/Week01/src/practice/StackTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week04/Week04.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="exercises.iws" />
@@ -104,118 +26,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SimplyVegPizza.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week03/src/decorator/SimplyVegPizza.java">
+      <file leaf-file-name="PartI.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Week04/src/PartI.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-              <folding>
-                <element signature="e#247#248#0" expanded="false" />
-                <element signature="e#300#301#0" expanded="false" />
-                <element signature="e#330#331#0" expanded="false" />
-                <element signature="e#357#358#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestCommentary.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Week03/src/observer/TestCommentary.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.534846">
-              <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LiveFeed.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week03/src/observer/LiveFeed.java">
+      <file leaf-file-name="Practice.sc" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Week04/src/Practice.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-              <folding>
-                <element signature="e#157#158#0" expanded="false" />
-                <element signature="e#190#191#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RomaTomatoes.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week03/src/decorator/RomaTomatoes.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="5" selection-start-line="3" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.30981067">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GreenOlives.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week03/src/decorator/GreenOlives.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Ham.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week03/src/decorator/Ham.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="42" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SimplyNonVegPizza.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week03/src/decorator/SimplyNonVegPizza.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="45" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="45" />
-              <folding>
-                <element signature="e#273#274#0" expanded="false" />
-                <element signature="e#326#327#0" expanded="false" />
-                <element signature="e#372#373#0" expanded="false" />
-                <element signature="e#399#400#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Meat.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week03/src/decorator/Meat.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Cheese.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week03/src/decorator/Cheese.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Spinach.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week03/src/decorator/Spinach.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="30" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="30" />
-              <folding>
-                <element signature="e#401#402#0" expanded="false" />
-                <element signature="e#450#451#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -227,6 +53,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Scala Worksheet" />
       </list>
     </option>
   </component>
@@ -280,6 +107,8 @@
         <option value="$PROJECT_DIR$/DesignPatterns/src/decorator/GreenOlives.java" />
         <option value="$PROJECT_DIR$/DesignPatterns/src/decorator/SimplyNonVegPizza.java" />
         <option value="$PROJECT_DIR$/DesignPatterns/src/decorator/SimplyVegPizza.java" />
+        <option value="$PROJECT_DIR$/Week04/src/PartI.scala" />
+        <option value="$PROJECT_DIR$/Week04/src/Practice.sc" />
       </list>
     </option>
   </component>
@@ -382,7 +211,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Week03" />
+              <option name="myItemId" value="Week04" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exercises" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exercises" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Week04" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1027,7 +874,7 @@
       <updated>1453309973399</updated>
       <workItem from="1453309974993" duration="82000" />
       <workItem from="1453310193183" duration="69795000" />
-      <workItem from="1454150506423" duration="278000" />
+      <workItem from="1454150506423" duration="4416000" />
     </task>
     <servers />
   </component>
@@ -1064,29 +911,29 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70155000" />
+    <option name="totallyTimeSpent" value="74293000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="714" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1118,25 +965,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Week03/src/observer/LiveFeed.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-          <folding>
-            <element signature="e#157#158#0" expanded="false" />
-            <element signature="e#190#191#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week03/src/decorator/RomaTomatoes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="5" selection-start-line="3" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Week03/src/decorator/GreenOlives.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1323,6 +1151,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1531,8 +1360,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Week03/src/observer/TestCommentary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.534846">
+        <state vertical-scroll-proportion="0.0">
           <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week04/src/PartI.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week04/src/Practice.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30981067">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
