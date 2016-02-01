@@ -15,7 +15,3 @@ math.pow(math.sqrt(3),2) //res4: Double = 2.9999999999999996
 
 //Control Structures and Functions
 
-
-
-
-
