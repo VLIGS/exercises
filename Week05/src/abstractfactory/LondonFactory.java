@@ -3,16 +3,16 @@ package abstractfactory;
 public class LondonFactory implements AbstractParserFactory{
     public XMLParser getParserInstance(String parserType){
         if(parserType.equals("LondonFEEDBACK")){
-            return new LondonFEEDBACK();
+            return new LondonFeedbackXMLParser();
         }
         else if(parserType.equals("LondonOrder")){
-            return new LondonOrder();
+            return new LondonOrderXMLParser();
         }
         else if(parserType.equals("LondonERROR")){
-            return new LondonERROR();
+            return new LondonErrorXMLParser();
         }
         else if(parserType.equals("LondonRESPONSES")){
-            return new LondonRESPONSES();
+            return new LondonResponseXMLParser();
         }
         return null;
     }
