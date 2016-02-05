@@ -1,5 +1,6 @@
 package abstractfactory;
 
+//This is abstract factory class
 public class ParserFactoryProducer {
     public static AbstractParserFactory getFactory(String factoryName){
         if(factoryName.equals("NYCFactory")) {
