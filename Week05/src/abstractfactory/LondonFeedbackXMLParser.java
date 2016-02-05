@@ -1,8 +1,8 @@
 package abstractfactory;
 
-public class LondonFeedbackXMLParser implements XMLParser{
+public class LondonFeedbackXMLParser extends FeedbackXMLParser{
     public String parse(){
-        System.out.println("London Parsing feedback XML...");
+        System.out.println(super.parse());
         return "London Feedback XML Message";
     }
 }

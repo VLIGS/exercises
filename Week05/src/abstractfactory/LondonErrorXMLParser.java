@@ -1,8 +1,8 @@
 package abstractfactory;
 
-public class LondonErrorXMLParser implements XMLParser{
+public class LondonErrorXMLParser extends ErrorXMLParser{
     public String parse(){
-        System.out.println("London Parsing error in order XML...");
+        System.out.println(super.parse());
         return "London error in order XML Message";
     }
 }

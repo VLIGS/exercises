@@ -1,8 +1,8 @@
 package abstractfactory;
 
-public class LondonOrderXMLParser implements XMLParser{
+public class LondonOrderXMLParser extends OrderXMLParser{
     public String parse(){
-        System.out.println("London Parsing order XML...");
+        System.out.println(super.parse());
         return "London Order XML Message";
     }
 }

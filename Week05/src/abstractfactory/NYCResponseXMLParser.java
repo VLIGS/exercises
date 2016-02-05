@@ -1,8 +1,8 @@
 package abstractfactory;
 
-public class NYCResponseXMLParser implements XMLParser{
+public class NYCResponseXMLParser extends ResponseXMLParser{
     public String parse(){
-        System.out.println("NYC Parsing responses XML...");
+        System.out.println(super.parse());
         return "NYC Responses XML Message";
     }
 }

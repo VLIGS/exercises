@@ -2,17 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b216e49-5e55-4e27-91d3-07b6f66e0b27" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Week05/src/abstractfactory/LondonERROR.java" afterPath="$PROJECT_DIR$/Week05/src/abstractfactory/LondonErrorXMLParser.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Week05/src/abstractfactory/LondonFEEDBACK.java" afterPath="$PROJECT_DIR$/Week05/src/abstractfactory/LondonFeedbackXMLParser.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Week05/src/abstractfactory/LondonOrder.java" afterPath="$PROJECT_DIR$/Week05/src/abstractfactory/LondonOrderXMLParser.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Week05/src/abstractfactory/LondonRESPONSES.java" afterPath="$PROJECT_DIR$/Week05/src/abstractfactory/LondonResponseXMLParser.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Week05/src/abstractfactory/NYCERROR.java" afterPath="$PROJECT_DIR$/Week05/src/abstractfactory/NYCErrorXMLParser.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Week05/src/abstractfactory/NYCFEEDBACK.java" afterPath="$PROJECT_DIR$/Week05/src/abstractfactory/NYCFeedbackXML.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Week05/src/abstractfactory/NYCOrder.java" afterPath="$PROJECT_DIR$/Week05/src/abstractfactory/NYCOrderXMLParser.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Week05/src/abstractfactory/NYCRESPONSES.java" afterPath="$PROJECT_DIR$/Week05/src/abstractfactory/NYCResponseXMLParser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week05/out/production/Week05/abstractfactory/ErrorXMLParser.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week05/out/production/Week05/abstractfactory/FeedbackXMLParser.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week05/out/production/Week05/abstractfactory/LondonErrorXMLParser.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week05/out/production/Week05/abstractfactory/LondonFeedbackXMLParser.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week05/out/production/Week05/abstractfactory/LondonOrderXMLParser.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week05/out/production/Week05/abstractfactory/LondonResponseXMLParser.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week05/out/production/Week05/abstractfactory/NYCErrorXMLParser.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week05/out/production/Week05/abstractfactory/NYCFeedbackXML.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week05/out/production/Week05/abstractfactory/NYCOrderXMLParser.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week05/out/production/Week05/abstractfactory/NYCResponseXMLParser.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week05/out/production/Week05/abstractfactory/OrderXMLParser.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week05/out/production/Week05/abstractfactory/ResponseXMLParser.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week05/src/abstractfactory/ErrorXMLParser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week05/src/abstractfactory/FeedbackXMLParser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week05/src/abstractfactory/OrderXMLParser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week05/src/abstractfactory/ResponseXMLParser.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Week05/out/production/Week05/abstractfactory/LondonERROR.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Week05/out/production/Week05/abstractfactory/LondonFEEDBACK.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Week05/out/production/Week05/abstractfactory/LondonOrder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Week05/out/production/Week05/abstractfactory/LondonRESPONSES.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Week05/out/production/Week05/abstractfactory/NYCERROR.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Week05/out/production/Week05/abstractfactory/NYCFEEDBACK.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Week05/out/production/Week05/abstractfactory/NYCOrder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Week05/out/production/Week05/abstractfactory/NYCRESPONSES.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week05/out/production/Week05/abstractfactory/LondonFactory.class" afterPath="$PROJECT_DIR$/Week05/out/production/Week05/abstractfactory/LondonFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week05/out/production/Week05/abstractfactory/NYCFactory.class" afterPath="$PROJECT_DIR$/Week05/out/production/Week05/abstractfactory/NYCFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week05/out/production/Week05/abstractfactory/TestAbstractFactoryPattern.class" afterPath="$PROJECT_DIR$/Week05/out/production/Week05/abstractfactory/TestAbstractFactoryPattern.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week05/src/abstractfactory/LondonErrorXMLParser.java" afterPath="$PROJECT_DIR$/Week05/src/abstractfactory/LondonErrorXMLParser.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week05/src/abstractfactory/LondonFactory.java" afterPath="$PROJECT_DIR$/Week05/src/abstractfactory/LondonFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week05/src/abstractfactory/LondonFeedbackXMLParser.java" afterPath="$PROJECT_DIR$/Week05/src/abstractfactory/LondonFeedbackXMLParser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week05/src/abstractfactory/LondonOrderXMLParser.java" afterPath="$PROJECT_DIR$/Week05/src/abstractfactory/LondonOrderXMLParser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week05/src/abstractfactory/LondonResponseXMLParser.java" afterPath="$PROJECT_DIR$/Week05/src/abstractfactory/LondonResponseXMLParser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week05/src/abstractfactory/NYCErrorXMLParser.java" afterPath="$PROJECT_DIR$/Week05/src/abstractfactory/NYCErrorXMLParser.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week05/src/abstractfactory/NYCFactory.java" afterPath="$PROJECT_DIR$/Week05/src/abstractfactory/NYCFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week05/src/abstractfactory/NYCFeedbackXML.java" afterPath="$PROJECT_DIR$/Week05/src/abstractfactory/NYCFeedbackXML.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week05/src/abstractfactory/NYCOrderXMLParser.java" afterPath="$PROJECT_DIR$/Week05/src/abstractfactory/NYCOrderXMLParser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week05/src/abstractfactory/NYCResponseXMLParser.java" afterPath="$PROJECT_DIR$/Week05/src/abstractfactory/NYCResponseXMLParser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week05/src/abstractfactory/TestAbstractFactoryPattern.java" afterPath="$PROJECT_DIR$/Week05/src/abstractfactory/TestAbstractFactoryPattern.java" />
     </list>
     <ignored path="exercises.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,41 +62,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LondonFactory.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Week05/src/abstractfactory/LondonFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7371007">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NYCFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week05/src/abstractfactory/NYCFactory.java">
+      <file leaf-file-name="LondonOrderXMLParser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Week05/src/abstractfactory/LondonOrderXMLParser.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestAbstractFactoryPattern.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week05/src/abstractfactory/TestAbstractFactoryPattern.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NYCFeedbackXML.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week05/src/abstractfactory/NYCFeedbackXML.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <caret line="4" column="42" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -78,27 +76,30 @@
         <entry file="file://$PROJECT_DIR$/Week05/src/abstractfactory/NYCErrorXMLParser.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NYCResponseXMLParser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week05/src/abstractfactory/NYCResponseXMLParser.java">
+      <file leaf-file-name="ResponseXMLParser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Week05/src/abstractfactory/ResponseXMLParser.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-              <folding />
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding>
+                <element signature="e#104#105#0" expanded="true" />
+                <element signature="e#152#153#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LondonOrderXMLParser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week05/src/abstractfactory/LondonOrderXMLParser.java">
+      <file leaf-file-name="LondonResponseXMLParser.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Week05/src/abstractfactory/LondonResponseXMLParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.14742015">
+              <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -108,17 +109,7 @@
         <entry file="file://$PROJECT_DIR$/Week05/src/abstractfactory/LondonErrorXMLParser.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LondonResponseXMLParser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week05/src/abstractfactory/LondonResponseXMLParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -128,8 +119,54 @@
         <entry file="file://$PROJECT_DIR$/Week05/src/abstractfactory/LondonFeedbackXMLParser.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="5" selection-start-line="3" selection-start-column="4" selection-end-line="6" selection-end-column="5" />
+              <caret line="4" column="42" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="42" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NYCResponseXMLParser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Week05/src/abstractfactory/NYCResponseXMLParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NYCFeedbackXML.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Week05/src/abstractfactory/NYCFeedbackXML.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ErrorXMLParser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Week05/src/abstractfactory/ErrorXMLParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding>
+                <element signature="e#101#102#0" expanded="true" />
+                <element signature="e#146#147#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderXMLParser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Week05/src/abstractfactory/OrderXMLParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="5" selection-start-line="3" selection-start-column="4" selection-end-line="5" selection-end-column="5" />
+              <folding>
+                <element signature="e#101#102#0" expanded="true" />
+                <element signature="e#146#147#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -156,18 +193,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/DesignPatterns/src/singleton/SingletonTest.java" />
-        <option value="/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/src.zip!/java/lang/String.java" />
-        <option value="$PROJECT_DIR$/DesignPatterns/src/xpay/XpayImpl.java" />
-        <option value="$PROJECT_DIR$/DesignPatterns/src/xpay/XpayToPayDAdapter.java" />
-        <option value="$PROJECT_DIR$/DesignPatterns/src/xpay/AdapterTests.java" />
-        <option value="$PROJECT_DIR$/DesignPatterns/src/observer/TestCommentary.java" />
-        <option value="$PROJECT_DIR$/DesignPatterns/src/observer/SMSUsers.java" />
-        <option value="$PROJECT_DIR$/DesignPatterns/src/observer/Subject.java" />
-        <option value="$PROJECT_DIR$/DesignPatterns/src/observer/CommentaryObject.java" />
-        <option value="$PROJECT_DIR$/DesignPatterns/src/observer/LiveFeed.java" />
-        <option value="$PROJECT_DIR$/DesignPatterns/src/decorator/Pizza.java" />
-        <option value="$PROJECT_DIR$/DesignPatterns/src/decorator/PizzaDecorator.java" />
         <option value="$PROJECT_DIR$/DesignPatterns/src/decorator/TestDecoratorPattern.java" />
         <option value="$PROJECT_DIR$/DesignPatterns/src/decorator/Spinach.java" />
         <option value="$PROJECT_DIR$/DesignPatterns/src/decorator/Cheese.java" />
@@ -193,7 +218,6 @@
         <option value="$PROJECT_DIR$/Week05/src/strategy/LowerTextFormatter.java" />
         <option value="$PROJECT_DIR$/Week05/src/strategy/CapTextFormatter.java" />
         <option value="$PROJECT_DIR$/Week05/src/strategy/TestStrategyPattern.java" />
-        <option value="$PROJECT_DIR$/Week05/src/abstractfactory/TestAbstractFactoryPattern.java" />
         <option value="$PROJECT_DIR$/Week05/src/abstractfactory/XMLParser.java" />
         <option value="$PROJECT_DIR$/Week05/src/abstractfactory/AbstractParserFactory.java" />
         <option value="$PROJECT_DIR$/Week05/src/abstractfactory/NYCOrder.java" />
@@ -205,8 +229,21 @@
         <option value="$PROJECT_DIR$/Week05/src/abstractfactory/LondonOrder.java" />
         <option value="$PROJECT_DIR$/Week05/src/abstractfactory/LondonERROR.java" />
         <option value="$PROJECT_DIR$/Week05/src/abstractfactory/LondonRESPONSES.java" />
+        <option value="$PROJECT_DIR$/Week05/src/abstractfactory/TestAbstractFactoryPattern.java" />
         <option value="$PROJECT_DIR$/Week05/src/abstractfactory/LondonFactory.java" />
         <option value="$PROJECT_DIR$/Week05/src/abstractfactory/NYCFactory.java" />
+        <option value="$PROJECT_DIR$/Week05/src/abstractfactory/OrderXMLParser.java" />
+        <option value="$PROJECT_DIR$/Week05/src/abstractfactory/LondonOrderXMLParser.java" />
+        <option value="$PROJECT_DIR$/Week05/src/abstractfactory/NYCOrderXMLParser.java" />
+        <option value="$PROJECT_DIR$/Week05/src/abstractfactory/FeedbackXMLParser.java" />
+        <option value="$PROJECT_DIR$/Week05/src/abstractfactory/LondonFeedbackXMLParser.java" />
+        <option value="$PROJECT_DIR$/Week05/src/abstractfactory/NYCFeedbackXML.java" />
+        <option value="$PROJECT_DIR$/Week05/src/abstractfactory/ErrorXMLParser.java" />
+        <option value="$PROJECT_DIR$/Week05/src/abstractfactory/NYCErrorXMLParser.java" />
+        <option value="$PROJECT_DIR$/Week05/src/abstractfactory/LondonErrorXMLParser.java" />
+        <option value="$PROJECT_DIR$/Week05/src/abstractfactory/ResponseXMLParser.java" />
+        <option value="$PROJECT_DIR$/Week05/src/abstractfactory/NYCResponseXMLParser.java" />
+        <option value="$PROJECT_DIR$/Week05/src/abstractfactory/LondonResponseXMLParser.java" />
       </list>
     </option>
   </component>
@@ -348,20 +385,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="abstractfactory" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exercises" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exercises" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Week04" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -998,7 +1021,7 @@
       <workItem from="1453309974993" duration="82000" />
       <workItem from="1453310193183" duration="69795000" />
       <workItem from="1454150506423" duration="16550000" />
-      <workItem from="1454317445339" duration="27524000" />
+      <workItem from="1454317445339" duration="33487000" />
     </task>
     <servers />
   </component>
@@ -1035,7 +1058,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113951000" />
+    <option name="totallyTimeSpent" value="119914000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="717" extended-state="6" />
@@ -1089,35 +1112,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week03/src/xpay/Xpay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week03/src/xpay/PayD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week03/src/xpay/XpayToPayDAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Week03/src/xpay/AdapterTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7407407">
@@ -1174,31 +1168,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week03/src/decorator/Pizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week03/src/decorator/PizzaDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week03/src/decorator/Spinach.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="30" />
-          <folding>
-            <element signature="e#401#402#0" expanded="false" />
-            <element signature="e#450#451#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Week03/src/decorator/Cheese.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1223,45 +1192,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week03/src/decorator/RomaTomatoes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="5" selection-start-line="3" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Week03/src/decorator/GreenOlives.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week03/src/decorator/SimplyNonVegPizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="45" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="45" />
-          <folding>
-            <element signature="e#273#274#0" expanded="false" />
-            <element signature="e#326#327#0" expanded="false" />
-            <element signature="e#372#373#0" expanded="false" />
-            <element signature="e#399#400#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week03/src/decorator/SimplyVegPizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-          <folding>
-            <element signature="e#247#248#0" expanded="false" />
-            <element signature="e#300#301#0" expanded="false" />
-            <element signature="e#330#331#0" expanded="false" />
-            <element signature="e#357#358#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1315,14 +1250,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8458904">
           <caret line="75" column="28" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week03/src/decorator/TestDecoratorPattern.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4779412">
-          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
           <folding />
         </state>
       </provider>
@@ -1394,30 +1321,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week05/src/abstractfactory/XMLParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week05/src/abstractfactory/NYCOrderXMLParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="55" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week05/src/abstractfactory/AbstractParserFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Week05/src/abstractfactory/ParserFactoryProducer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1426,58 +1329,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week05/src/abstractfactory/LondonFeedbackXMLParser.java">
+    <entry file="file://$PROJECT_DIR$/Week05/src/abstractfactory/AbstractParserFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="5" selection-start-line="3" selection-start-column="4" selection-end-line="6" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.07371008">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week05/src/abstractfactory/NYCFeedbackXML.java">
+    <entry file="file://$PROJECT_DIR$/Week03/src/decorator/Pizza.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week05/src/abstractfactory/NYCErrorXMLParser.java">
+    <entry file="file://$PROJECT_DIR$/Week03/src/decorator/TestDecoratorPattern.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week05/src/abstractfactory/LondonOrderXMLParser.java">
+    <entry file="file://$PROJECT_DIR$/Week03/src/decorator/SimplyVegPizza.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding>
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week03/src/decorator/SimplyNonVegPizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="45" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="45" />
+          <folding>
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week03/src/decorator/RomaTomatoes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week03/src/decorator/Spinach.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week05/src/abstractfactory/LondonErrorXMLParser.java">
+    <entry file="file://$PROJECT_DIR$/Week03/src/decorator/PizzaDecorator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+          <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week05/src/abstractfactory/NYCResponseXMLParser.java">
+    <entry file="file://$PROJECT_DIR$/Week05/src/abstractfactory/XMLParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week05/src/abstractfactory/LondonResponseXMLParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -1485,7 +1413,15 @@
     <entry file="file://$PROJECT_DIR$/Week05/src/abstractfactory/TestAbstractFactoryPattern.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week05/src/abstractfactory/LondonFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -1493,15 +1429,115 @@
     <entry file="file://$PROJECT_DIR$/Week05/src/abstractfactory/NYCFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week05/src/abstractfactory/LondonFactory.java">
+    <entry file="file://$PROJECT_DIR$/Week05/src/abstractfactory/NYCOrderXMLParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7371007">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week05/src/abstractfactory/FeedbackXMLParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#104#105#0" expanded="true" />
+            <element signature="e#152#153#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week05/src/abstractfactory/NYCFeedbackXML.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week05/src/abstractfactory/ErrorXMLParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#101#102#0" expanded="true" />
+            <element signature="e#146#147#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week05/src/abstractfactory/LondonOrderXMLParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week05/src/abstractfactory/LondonErrorXMLParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week05/src/abstractfactory/NYCErrorXMLParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week05/src/abstractfactory/OrderXMLParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="5" selection-start-line="3" selection-start-column="4" selection-end-line="5" selection-end-column="5" />
+          <folding>
+            <element signature="e#101#102#0" expanded="true" />
+            <element signature="e#146#147#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week05/src/abstractfactory/ResponseXMLParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#104#105#0" expanded="true" />
+            <element signature="e#152#153#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week05/src/abstractfactory/LondonFeedbackXMLParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week05/src/abstractfactory/NYCResponseXMLParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week05/src/abstractfactory/LondonResponseXMLParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14742015">
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
           <folding />
         </state>
       </provider>
