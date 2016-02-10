@@ -48,9 +48,18 @@ def forecast(value: Int): String = value match {
   case _ => "Unknown"
 }
 
+//Pattern Matching
+
+//1
   forecast(100) is "Sunny"
   forecast(80) is "Mostly Sunny"
   forecast(50) is "Partly Sunny"
   forecast(20) is "Mostly Cloudy"
   forecast(0) is "Cloudy"
   forecast(15) is "Unknown"
+
+//2
+val sunnyData = Vector(100,80,50,20,0,15)
+
+for (i <- 0 until sunnyData.length)
+  print(forecast(sunnyData(i)) + "\n")

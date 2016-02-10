@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b216e49-5e55-4e27-91d3-07b6f66e0b27" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week06/src/PatternMatching.sc" afterPath="$PROJECT_DIR$/Week06/src/PatternMatching.sc" />
     </list>
     <ignored path="exercises.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,7 +60,7 @@
         <entry file="file://$PROJECT_DIR$/Week06/src/PatternMatching.sc">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.5956873">
-              <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+              <caret line="60" column="3" selection-start-line="60" selection-start-column="3" selection-end-line="60" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -69,8 +69,8 @@
       <file leaf-file-name="Vectors.sc" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week04/src/Vectors.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.7088948">
-              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.19137466">
+              <caret line="54" column="20" selection-start-line="53" selection-start-column="0" selection-end-line="54" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -994,7 +994,7 @@
       <workItem from="1453309974993" duration="82000" />
       <workItem from="1453310193183" duration="69795000" />
       <workItem from="1454150506423" duration="16550000" />
-      <workItem from="1454317445339" duration="59502000" />
+      <workItem from="1454317445339" duration="60114000" />
     </task>
     <servers />
   </component>
@@ -1031,7 +1031,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145929000" />
+    <option name="totallyTimeSpent" value="146541000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="717" extended-state="6" />
@@ -1470,10 +1470,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="5" selection-start-line="7" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
           <folding>
-            <element signature="e#142#143#0" expanded="true" />
-            <element signature="e#188#189#0" expanded="true" />
-            <element signature="e#578#579#0" expanded="true" />
-            <element signature="e#612#613#0" expanded="true" />
+            <element signature="e#142#143#0" expanded="false" />
+            <element signature="e#188#189#0" expanded="false" />
+            <element signature="e#578#579#0" expanded="false" />
+            <element signature="e#612#613#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1496,12 +1496,12 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
           <folding>
-            <element signature="e#229#230#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
-            <element signature="e#294#295#0" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
-            <element signature="e#364#365#0" expanded="true" />
-            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="false" />
+            <element signature="e#266#267#0" expanded="false" />
+            <element signature="e#294#295#0" expanded="false" />
+            <element signature="e#332#333#0" expanded="false" />
+            <element signature="e#364#365#0" expanded="false" />
+            <element signature="e#455#456#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1569,14 +1569,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week04/src/Vectors.sc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.7088948">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Week04/src/Cup.sc">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.4663072">
@@ -1585,10 +1577,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Week04/src/Vectors.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19137466">
+          <caret line="54" column="20" selection-start-line="53" selection-start-column="0" selection-end-line="54" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Week06/src/PatternMatching.sc">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5956873">
-          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <caret line="60" column="3" selection-start-line="60" selection-start-column="3" selection-end-line="60" selection-end-column="3" />
           <folding />
         </state>
       </provider>
