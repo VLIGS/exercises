@@ -39,23 +39,24 @@ object AtomicTest {
 
 import AtomicTest._
 
-//Question 21
+//Question 24
 
-val dogYears = (x:Int) => x * 7
-dogYears(10) is 70
+val v = Vector(1, 2, 3, 4)
+v.map(n => n*11+10) is Vector(21, 32, 43, 54)
 
-//Question 22
+//Question 25
 
-var s = ""
-val v = Vector(1, 5, 7, 8)
-v.foreach(s += dogYears( _) + " ")
+//This doesn't work, test fails
+//val v1 = Vector(1, 2, 3, 4)
+//v1.foreach(n => n*11+10) is Vector(21, 32, 43, 54)
 
-s is "7 35 49 56 "
+//Question 25
 
-//Question 23
+val v1 = Vector(1, 2, 3, 4)
+val v2 = scala.collection.immutable.Vector.empty
+for (i <- 0 until v1.length)
+  v2 :+ v1(i) * 11 + 10
+println(v2)
 
-var s1 = ""
-val numbers = Vector(1, 2, 5, 3, 7)
-numbers.foreach(e => s1 += e*e + " ")
 
-s1 is "1 4 25 9 49 "
+//v2 is Vector(21, 32, 43, 54)
