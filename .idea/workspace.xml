@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b216e49-5e55-4e27-91d3-07b6f66e0b27" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week06/src/5_AuxiliaryConstructors.sc" afterPath="$PROJECT_DIR$/Week06/src/5_AuxiliaryConstructors.sc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="exercises.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -54,7 +54,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="5_AuxiliaryConstructors.sc" pinned="false" current-in-tab="true">
+      <file leaf-file-name="5_AuxiliaryConstructors.sc" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week06/src/5_AuxiliaryConstructors.sc">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.7684391">
@@ -64,11 +64,31 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Vectors.sc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Week04/src/Vectors.sc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4716981">
+              <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="54" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="7_ParameterisedTypes.sc" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Week06/src/7_ParameterisedTypes.sc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6655232">
+              <caret line="73" column="13" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="6_CaseClasses.sc" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week06/src/6_CaseClasses.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40308747">
-              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.92281306">
+              <caret line="41" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -106,7 +126,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Week05/src/abstractfactory/NYCOrder.java" />
         <option value="$PROJECT_DIR$/Week05/src/abstractfactory/LondonFEEDBACK.java" />
         <option value="$PROJECT_DIR$/Week05/src/abstractfactory/ParserFactoryProducer.java" />
         <option value="$PROJECT_DIR$/Week05/src/abstractfactory/NYCFEEDBACK.java" />
@@ -157,6 +176,7 @@
         <option value="$PROJECT_DIR$/Week06/src/NamedAndDefaultArguments.sc" />
         <option value="$PROJECT_DIR$/Week06/src/Constructors.sc" />
         <option value="$PROJECT_DIR$/Week06/src/5_AuxiliaryConstructors.sc" />
+        <option value="$PROJECT_DIR$/Week06/src/7_ParameterisedTypes.sc" />
       </list>
     </option>
   </component>
@@ -272,6 +292,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Week06" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exercises" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exercises" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Week04" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exercises" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exercises" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Week04" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -919,7 +971,7 @@
       <workItem from="1453310193183" duration="69795000" />
       <workItem from="1454150506423" duration="16550000" />
       <workItem from="1454317445339" duration="65251000" />
-      <workItem from="1455186189852" duration="14033000" />
+      <workItem from="1455186189852" duration="17589000" />
     </task>
     <servers />
   </component>
@@ -956,7 +1008,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165711000" />
+    <option name="totallyTimeSpent" value="169267000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="35" width="1280" height="717" extended-state="0" />
@@ -1010,13 +1062,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Week05/src/abstractfactory/TestAbstractFactoryPattern.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Week05/src/abstractfactory/LondonFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1401,14 +1446,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week04/src/Vectors.sc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19137466">
-          <caret line="54" column="20" selection-start-line="53" selection-start-column="0" selection-end-line="54" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Week04/src/Animals.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.036764707">
@@ -1447,14 +1484,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week06/src/6_CaseClasses.sc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40308747">
-          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Week06/src/1_PatternMatching.sc">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6140652">
@@ -1483,6 +1512,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7684391">
           <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week06/src/6_CaseClasses.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.92281306">
+          <caret line="41" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week04/src/Vectors.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4716981">
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="54" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week06/src/7_ParameterisedTypes.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6655232">
+          <caret line="73" column="13" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
           <folding />
         </state>
       </provider>
