@@ -39,7 +39,8 @@ object AtomicTest {
 
 import AtomicTest._
 
-//3
+//Question 3
+
 class Family(members: String*){
   val familyMembers = for (mem <- members) yield mem
   def familySize() = familyMembers.length
@@ -50,7 +51,8 @@ family1.familySize() is 4
 val family2 = new Family("Dad", "Mom", "Harry")
 family2.familySize() is 3
 
-//4
+//Question 4
+
 class FlexibleFamily(members: String*){
   val parents = for (i <- 0 to 1) yield members(i)
   val children = for (i <- 2 to members.length-1) yield members(i)
@@ -62,7 +64,8 @@ family3.familySize() is 4
 val family4 = new FlexibleFamily("Dad", "Mom", "Harry")
 family4.familySize() is 3
 
-//5
+//Question 5
+
 def squareThem(args: Int*) = {
   var result = 0
   for (arg <- args) result = result + arg*arg

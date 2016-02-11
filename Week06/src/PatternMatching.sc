@@ -39,6 +39,8 @@ object AtomicTest {
 
 import AtomicTest._
 
+
+//Question 1
 def forecast(value: Int): String = value match {
   case 100 => "Sunny"
   case 80 => "Mostly Sunny"
@@ -48,9 +50,6 @@ def forecast(value: Int): String = value match {
   case _ => "Unknown"
 }
 
-//Pattern Matching
-
-//1
   forecast(100) is "Sunny"
   forecast(80) is "Mostly Sunny"
   forecast(50) is "Partly Sunny"
@@ -58,7 +57,7 @@ def forecast(value: Int): String = value match {
   forecast(0) is "Cloudy"
   forecast(15) is "Unknown"
 
-//2
+//Question 2
 val sunnyData = Vector(100,80,50,20,0,15)
 
 for (i <- 0 until sunnyData.length)

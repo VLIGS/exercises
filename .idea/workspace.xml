@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b216e49-5e55-4e27-91d3-07b6f66e0b27" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week06/src/CaseClasses.sc" afterPath="$PROJECT_DIR$/Week06/src/CaseClasses.sc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week06/src/Class Arguments.sc" afterPath="$PROJECT_DIR$/Week06/src/Class Arguments.sc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week06/src/PatternMatching.sc" afterPath="$PROJECT_DIR$/Week06/src/PatternMatching.sc" />
     </list>
     <ignored path="exercises.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,11 +26,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Class Arguments.sc" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Class Arguments.sc" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week06/src/Class Arguments.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.38250428">
-              <caret line="55" column="46" selection-start-line="55" selection-start-column="46" selection-end-line="55" selection-end-column="46" />
+            <state vertical-scroll-proportion="0.6140652">
+              <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NamedAndDefaultArguments.sc" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Week06/src/NamedAndDefaultArguments.sc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.5917667">
+              <caret line="97" column="0" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CaseClasses.sc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Week06/src/CaseClasses.sc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.40308747">
+              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PatternMatching.sc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Week06/src/PatternMatching.sc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6140652">
+              <caret line="55" column="33" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -57,7 +88,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Week05/src/strategy/TestStrategyPattern.java" />
         <option value="$PROJECT_DIR$/Week05/src/abstractfactory/XMLParser.java" />
         <option value="$PROJECT_DIR$/Week05/src/abstractfactory/AbstractParserFactory.java" />
         <option value="$PROJECT_DIR$/Week05/src/abstractfactory/NYCOrder.java" />
@@ -105,9 +135,10 @@
         <option value="$PROJECT_DIR$/Week05/src/composite/HtmlElement.java" />
         <option value="$PROJECT_DIR$/Week05/src/composite/HtmlParentElement.java" />
         <option value="$PROJECT_DIR$/Week06/src/Forecast.scala" />
-        <option value="$PROJECT_DIR$/Week06/src/PatternMatching.sc" />
         <option value="$PROJECT_DIR$/Week06/src/CaseClasses.sc" />
         <option value="$PROJECT_DIR$/Week06/src/Class Arguments.sc" />
+        <option value="$PROJECT_DIR$/Week06/src/PatternMatching.sc" />
+        <option value="$PROJECT_DIR$/Week06/src/NamedAndDefaultArguments.sc" />
       </list>
     </option>
   </component>
@@ -870,7 +901,7 @@
       <workItem from="1453310193183" duration="69795000" />
       <workItem from="1454150506423" duration="16550000" />
       <workItem from="1454317445339" duration="65251000" />
-      <workItem from="1455186189852" duration="1227000" />
+      <workItem from="1455186189852" duration="7479000" />
     </task>
     <servers />
   </component>
@@ -907,7 +938,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152905000" />
+    <option name="totallyTimeSpent" value="159157000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="27" y="38" width="1280" height="717" extended-state="0" />
@@ -961,13 +992,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Week03/src/decorator/Spinach.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Week03/src/decorator/PizzaDecorator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1381,14 +1405,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week06/src/PatternMatching.sc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6361186">
-          <caret line="41" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Week04/src/Animals.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.036764707">
@@ -1411,14 +1427,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week06/src/CaseClasses.sc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.83827496">
-          <caret line="41" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Week04/src/Practice.sc">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1429,8 +1437,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Week06/src/Class Arguments.sc">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38250428">
-          <caret line="55" column="46" selection-start-line="55" selection-start-column="46" selection-end-line="55" selection-end-column="46" />
+        <state vertical-scroll-proportion="0.6140652">
+          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week06/src/CaseClasses.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40308747">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week06/src/PatternMatching.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6140652">
+          <caret line="55" column="33" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week06/src/NamedAndDefaultArguments.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.5917667">
+          <caret line="97" column="0" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
           <folding />
         </state>
       </provider>

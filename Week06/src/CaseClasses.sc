@@ -40,7 +40,7 @@ object AtomicTest {
 
 import AtomicTest._
 
-//Case Classes
+
 //Question 15
 
 case class Person(first: String, last: String, email: String)
