@@ -42,7 +42,6 @@ import AtomicTest._
 
 // /Question 1(a)
 val v = Vector(1, 2, 3, 4)
-
 v.map(n => n*11+10) is Vector(21, 32, 43, 54)
 
 //Question 1(b)
@@ -53,9 +52,10 @@ v.map(n => n*11+10) is Vector(21, 32, 43, 54)
 
 //Question 1(c)
 var v1 = Vector(1, 2, 3, 4)
-for (i <- 0 until v1.length)
-  v1:+(v1(i) * 11 + 10)
+var v2 = new Array[Int](v1.length)
 
-println(v1)
+for (i <- 0 until v1.last)
+  v2(i) = v1(i) * 11 + 10
 
-//v2 is Vector(21, 32, 43, 54)
+val v3 = v2.toVector
+v3 is Vector(21, 32, 43, 54)
