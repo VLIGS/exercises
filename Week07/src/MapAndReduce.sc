@@ -80,7 +80,7 @@ for (i <- 0 until v5.length)
 sum is 1111
 
 //Question 4
-def sumIt(args: Int*): Int = args.reduce(( sum1, n) => sum1 + n)
+def sumIt(args: Int*): Int = args.reduce((x, y) => x + y)
 sumIt(1, 2, 3) is 6
 sumIt(45, 45, 45, 60) is 195
 
