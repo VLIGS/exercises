@@ -52,11 +52,11 @@ v.map(n => n*11+10) is Vector(21, 32, 43, 54)
 
 //Question 25
 
-val v1 = Vector(1, 2, 3, 4)
-val v2 = scala.collection.immutable.Vector.empty
+var v1 = Vector(1, 2, 3, 4)
+var v2 = scala.collection.immutable.Vector.empty
 for (i <- 0 until v1.length)
-  v2 :+ v1(i) * 11 + 10
-println(v2)
+  v1 :+ v1(i) * 11 + 10
+println(v1)
 
 
 //v2 is Vector(21, 32, 43, 54)
