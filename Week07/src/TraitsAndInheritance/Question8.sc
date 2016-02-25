@@ -23,7 +23,10 @@ list.isInstanceOf[LinkedList[Int]]
 //list.tail.head // returns 2 as an Int
 //list.tail.tail // returns Pair(3, Empty()) as a LinkedList[Int]
 
+//testing 8b(i)
 println(list.length())
+
+//testing 8b(iii)
 println(list.contains(1))
 println(list.contains(2))
 println(list.contains(3))
