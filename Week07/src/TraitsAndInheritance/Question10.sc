@@ -15,3 +15,9 @@ divide(1, 2) match {
   case Full(value) => println(s"It's finite: ${value}")
   case Empty()     => println(s"It's infinite")
 }
+
+divide(2, 1) match {
+  case Full(value) => println(s"It's finite: ${value}")
+  case Empty()     => println(s"It's infinite")
+}
+
