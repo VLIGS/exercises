@@ -1,10 +1,14 @@
+sealed trait Result[A]
+case class Success[A](result: A) extends Result[A]
+case class Failure[A](reason: String) extends Result[A]
+
 sealed trait LinkedList[A]{
   def isEmpty: Boolean
   def head: A
   def tail: LinkedList[A]
   def length: Int
   def contains(item:A): Boolean
-  def apply(n:Int):A
+  def apply(n:Int):Result[A]
 }
 case class End[A]() extends LinkedList[A]{
   def isEmpty = true
@@ -12,7 +16,7 @@ case class End[A]() extends LinkedList[A]{
   def tail = throw new NoSuchElementException
   def length():Int = 0
   def contains(item:A):Boolean = false
-  def apply(n:Int):A = throw new IndexOutOfBoundsException
+  def apply(n:Int): Result[A] = Failure("Index Out OfBounds")
 }
 case class Pair[A](val head: A, val tail: LinkedList[A]) extends LinkedList[A]{
   def isEmpty = false
@@ -20,9 +24,9 @@ case class Pair[A](val head: A, val tail: LinkedList[A]) extends LinkedList[A]{
   def contains(item:A):Boolean = {
     if (head.equals(item)) true else tail.contains(item)
   }
-  def apply(n:Int):A = {
-    if (this.isEmpty) throw new IndexOutOfBoundsException
-    else if (n == 0) head
+  def apply(n:Int): Result[A] = {
+    if (this.isEmpty) Failure("Index Out OfBounds")
+    else if (n == 0) Success(head)
     else tail.apply(n - 1)
   }
 }
@@ -41,3 +45,5 @@ End().contains(0)
 example1.apply(0)
 example1.apply(1)
 example1.apply(2)
+example1.apply(3)
+End().apply(1)
