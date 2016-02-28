@@ -50,3 +50,12 @@ object MyMain extends App {
   println(myList.sum)
   println(myList.sum1)
 }
+
+//Question 2c
+//It is more convenient to rewrite methods in terms of fold if they were implemented using pattern matching
+//rather than polymorphism.
+
+//Question 2d
+//Double method does not fit the pattern that sum, product, and length have, in particular, base case does
+//not return Int but IntList
+
