@@ -2,7 +2,7 @@
 package Generics
 
 sealed trait myList[A] {
-
+/**
   def fold(end: A)(f: (A, A) => A): myList [A] =
     this match {
       case myEnd() => this
@@ -37,11 +37,12 @@ sealed trait myList[A] {
       case myEnd() => 0
       case myPair(hd, tl) => hd + tl.sum
     }
+  **/
 }
 case class myEnd() extends myList [Nothing]
 case class myPair[A](val head: A, val tail: myList[A]) extends myList [A]
 
-object MyMain extends App {
+object MyListMain extends App {
   val myList: IntList = Pair(1, Pair(2, Pair(3, End)))
   println(myList.length)
   println(myList.length1)
