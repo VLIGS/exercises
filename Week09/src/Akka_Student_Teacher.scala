@@ -3,7 +3,6 @@ package Akka
 
 import akka.actor._
 
-import scala.util.Random
 
 //import me.rerun.akkanotes.messaging.protocols.TeacherProtocol._
 
@@ -23,7 +22,7 @@ case class QuoteResponse(quoteString:String)
 
 //}
 
-class TeacherActor extends Actor {
+class TeacherLogActor extends Actor with ActorLogging {
 
   val quotes = List(
     "Moderation is for cowards",
@@ -35,16 +34,16 @@ class TeacherActor extends Actor {
 
     case QuoteRequest => {
 
-      import scala.util.Random
+      import util.Random
 
-      //Get a random Quote from the list and construct a response
+      //get a random element (for now)
       val quoteResponse=QuoteResponse(quotes(Random.nextInt(quotes.size)))
-
-      println (quoteResponse)
-
+      log.info(quoteResponse.toString())
     }
-
   }
+
+  //We'll cover the purpose of this method in the Testing section
+  def quoteList=quotes
 
 }
 
@@ -54,7 +53,7 @@ object StudentSimulatorApp extends App{
   val actorSystem=ActorSystem("UniversityMessageSystem")
 
   //construct the Teacher Actor Ref
-  val teacherActorRef=actorSystem.actorOf(Props[TeacherActor])
+  val teacherActorRef=actorSystem.actorOf(Props[TeacherLogActor])
 
   //send a message to the Teacher Actor
   teacherActorRef!QuoteRequest
