@@ -13,6 +13,7 @@ class BasicLifecycleLoggingActor extends Actor with ActorLogging{
 
   def receive = LoggingReceive{
     case "hello" => log.info ("hello")
+    case "stop" => context.stop(self)
   }
 
   override def postStop()={
@@ -26,7 +27,11 @@ object LifecycleApp extends App{
   val actorSystem=ActorSystem("LifecycleActorSystem")
   val lifecycleActor=actorSystem.actorOf(Props[BasicLifecycleLoggingActor],"lifecycleActor")
 
-  lifecycleActor!"hello"
+  //lifecycleActor!"hello"
+  //actorSystem.stop(lifecycleActor);
+  //lifecycleActor!"stop"
+  //lifecycleActor!PoisonPill
+  lifecycleActor ! Kill
 
   //wait for a couple of seconds before shutdown
   Thread.sleep(2000)
