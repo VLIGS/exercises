@@ -1,19 +1,6 @@
-package Akka
-
+package FireAndForget
 
 import akka.actor._
-
-
-//import me.rerun.akkanotes.messaging.protocols.TeacherProtocol._
-
-/*
- * Your Teacher Actor class.
- *
- * The class could use refinement by way of
- * using ActorLogging which uses the EventBus of the Actor framework
- * instead of the plain old System out
- *
- */
 
 //object TeacherProtocol{
 
@@ -65,5 +52,6 @@ object StudentSimulatorApp extends App{
   actorSystem.shutdown()
 
 }
+
 
 
